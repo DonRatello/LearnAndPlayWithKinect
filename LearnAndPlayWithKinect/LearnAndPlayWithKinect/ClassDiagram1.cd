@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LearnAndPlayWithKinect.Cloud.Datum" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Cloud\Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Cloud.RootObject" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAQAAAAAAA=</HashCode>
+      <FileName>Cloud\Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Cloud.Json" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cloud\Json.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Cloud.Request" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIAA=</HashCode>
+      <FileName>Cloud\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Cloud.Services" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAACAAAEAgAAACEAAACACAAAEAAAAAAIA=</HashCode>
+      <FileName>Cloud\Services.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Card" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Time" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgIAABAAQAAACAIAAAAAAIAAAACAAAAEAAABQA=</HashCode>
+      <FileName>Games\Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.EngColors.Answer" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAYAAABBAAAAAAAgAAAAAAAAAAAAAAAAAAAGBI=</HashCode>
+      <FileName>Games\EngColors\Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.EngColors.ColorCard" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAQAAQAAQAA=</HashCode>
+      <FileName>Games\EngColors\ColorCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.EngColors.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GCgADEIADCCAAAAAAUIBECAIAAAAEAAACAAAAAQUgAI=</HashCode>
+      <FileName>Games\EngColors\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MoveInfo" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAACAEAAAAAEAAAAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MoveInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARBICgBAAAAAEAAFqBAAQAQAAEEAgBAAIICAIVAAk=</HashCode>
+      <FileName>Games\Gymnastics\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.BaseJoint" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAhEAAAAAAAEACAAABAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\BaseJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.Hand" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\Hand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.Head" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\Head.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.Hip" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\Hip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.LeftHand" Collapsed="true">
+    <Position X="9.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\LeftHand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.LeftLeg" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\LeftLeg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.Leg" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\Leg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.MainController" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAkAAAAjAAAYCABAAASQAAAAAAAAAIAAFAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\MainController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.RightHand" Collapsed="true">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\RightHand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Gymnastics.MovesController.RightLeg" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Gymnastics\MovesController\RightLeg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Memory.CardPositions" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Memory\CardPositions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Memory.MemoryCard" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Memory\MemoryCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.Memory.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAQBIGwBBICEABEIVoAJgIAAAkEEAxAYIAAAASUgEI=</HashCode>
+      <FileName>Games\Memory\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.PickingApples.Apple" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAAAAAAAAgAIAACAAAACAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Games\PickingApples\Apple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.PickingApples.Player" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASAEAAAAIAAAIAAAAACBABAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\PickingApples\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.PickingApples.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BASRBIIABAAAAAAAAFIBAQAAQAQEEAABAAgAAAIUABA=</HashCode>
+      <FileName>Games\PickingApples\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.ToyStore.MoneyCard" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAgCAAAAACQCAAAAAQAAAAA=</HashCode>
+      <FileName>Games\ToyStore\MoneyCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.ToyStore.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACDEAABAQAABCAQUoB4GAEEIAEEAACAAABAQRUkAA=</HashCode>
+      <FileName>Games\ToyStore\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Games.ToyStore.ToyCard" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAQACAAAAAAACAAAQAQAAAAA=</HashCode>
+      <FileName>Games\ToyStore\ToyCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Intro.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAgAAAAAAAAAAIAAAQAAAAQEAABAAAACAEUAhA=</HashCode>
+      <FileName>Intro\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kindergarten.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEAAAIAAABEIBIAAAAAAAgEEAAAAIAAAAAEAAI=</HashCode>
+      <FileName>Kindergarten\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.ColorStreamRenderer" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAwAgACAACAAAAEAAAAAAAAEAEAAAAAQ=</HashCode>
+      <FileName>Kinect\ColorStreamRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.DepthStreamRenderer" Collapsed="true">
+    <Position X="5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAACAAAAEAAAACAAAEgAAEAAgQ=</HashCode>
+      <FileName>Kinect\DepthStreamRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.InfoBox" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJEAQQAAIEQAAABYADCACoAAEEDAIAAAkQCAUAAA=</HashCode>
+      <FileName>Kinect\InfoBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.KinectChooser" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEGAAAQAAQwEAAAAAAAAAAAAAAAABBAAEAAAAAIQ=</HashCode>
+      <FileName>Kinect\KinectChooser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.KinectSpeech" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAIAAAgAAAQAAABAAAEQAAAQAAAAAIIACAAAAA=</HashCode>
+      <FileName>Kinect\KinectSpeech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.Object2D" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAhAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kinect\Object2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.SkeletonStreamRenderer" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAIDAAAwAAAAAIAAEggAAAAIAgAAAAAAAAAAU=</HashCode>
+      <FileName>Kinect\SkeletonStreamRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Kinect.TrackedSkeleton" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAABAAAA=</HashCode>
+      <FileName>Kinect\TrackedSkeleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.LearnAndPlayGame" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QKQAEEIIAIACAwAAQBEAAAQAwAICwAgkgAAFAAAQAAQ=</HashCode>
+      <FileName>LearnAndPlayGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.GamePicture" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAABABAQAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Other\GamePicture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Program" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Settings" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAIACQAAAEAAAAAAACAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Loading.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBBAAAAAAAAAAAAAIAAAACAAAAUAIAAAAAAAEUgAA=</HashCode>
+      <FileName>Loading\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Loading.Sun" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Loading\Sun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.MainMenu.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJgAAAAAAAIAAAAIAAAACAAD/HAQAAAAAAIAUAAA=</HashCode>
+      <FileName>MainMenu\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Other.Fonts" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABgAAgAgAAAEAAQAAAAAAAAAAAAgAAgAgAAAQEAA=</HashCode>
+      <FileName>Other\Fonts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Other.FrameRateCounter" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAEAAAQAAAgAAACAAAAAAAAACIAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Other\FrameRateCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Other.MersenneTwister" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAIQAEAAQABAQAAAAAAgAgQEAcAIAgAAFIACEA=</HashCode>
+      <FileName>Other\MersenneTwister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Other.Pointer" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAABAAAAAAAAQEAAAIACAAEAAAAAAAgAgAgAAAEAAA=</HashCode>
+      <FileName>Other\Pointer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Other.PointerAdjustment" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Other\PointerAdjustment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Other.Utils" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Other\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.School.Screen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEAAAIAAABEIBIAAAAAAAgEEAAAAIAAAAAEAAI=</HashCode>
+      <FileName>School\Screen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Sounds.Sound" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAAAAAAAAAAiIAAAVAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sounds\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearnAndPlayWithKinect.Sounds.SoundVault" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAGAAAABAAAACAAAAgIAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sounds\SoundVault.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LearnAndPlayWithKinect.Interfaces.iCloudGame" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\iCloudGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LearnAndPlayWithKinect.Interfaces.iScreen" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Interfaces\iScreen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LearnAndPlayWithKinect.Games.EngColors.AnswerType" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Games\EngColors\Answer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.EngColors.Colors" Collapsed="true">
+    <Position X="19.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAAhAAAAAABAAAEAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Games\EngColors\Colors.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.Gymnastics.Mode" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAA=</HashCode>
+      <FileName>Games\Gymnastics\Mode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.Gymnastics.Moves" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACECAAAAAggggQgAAACIAAAKAAAAEAAABAQAACAAIA=</HashCode>
+      <FileName>Games\Gymnastics\Moves.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.Memory.CardType" Collapsed="true">
+    <Position X="18" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAAAAQQAAAAAAAAAAIAACAAAQAACAACAgAAAA=</HashCode>
+      <FileName>Games\Memory\CardType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.PickingApples.Mode" Collapsed="true">
+    <Position X="25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAg=</HashCode>
+      <FileName>Games\PickingApples\Mode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.ToyStore.MoneyType" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\ToyStore\MoneyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Games.ToyStore.StageMode" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Games\ToyStore\StageMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Kinect.KinectViewportModes" Collapsed="true">
+    <Position X="23.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kinect\KinectViewportModes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Kinect.WordCommands" Collapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Kinect\WordCommands.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Other.GameType" Collapsed="true">
+    <Position X="21.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAgQAAACAAAAAAAAQAAAAAAAAQgAABAQAAAA=</HashCode>
+      <FileName>Other\Games.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LearnAndPlayWithKinect.Sounds.AvailableSounds" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCCEHCABEAigkoQhAAACIgAEKgAAAEKFEBAQACKAAIA=</HashCode>
+      <FileName>Sounds\AvailableSounds.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="LearnAndPlayWithKinect.Kinect.SkeletonPointMap" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Kinect\SkeletonStreamRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
